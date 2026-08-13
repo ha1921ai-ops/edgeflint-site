@@ -29,7 +29,7 @@ const domains = [
     status: "Available",
     buyNow: 899,
     minOffer: 450,
-    saleUrl: "https://www.spaceship.com/sellerhub/portfolio/thedomainvault/",
+    saleUrl: "https://jefik.com",
     detailsUrl: "jefik/",
     saleLabel: "View domain details"
   },
