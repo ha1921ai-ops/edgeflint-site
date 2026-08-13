@@ -8,7 +8,8 @@ const domains = [
     buyNow: 299,
     minOffer: 149,
     saleUrl: "https://bookwormdreams.com",
-    saleLabel: "View secure sale page"
+    detailsUrl: "bookwormdreams/",
+    saleLabel: "View domain details"
   },
   {
     name: "ImpossibleSky.com",
@@ -18,7 +19,8 @@ const domains = [
     buyNow: 1495,
     minOffer: 650,
     saleUrl: "https://impossiblesky.com",
-    saleLabel: "View secure sale page"
+    detailsUrl: "impossiblesky/",
+    saleLabel: "View domain details"
   },
   {
     name: "Jefik.com",
@@ -28,7 +30,8 @@ const domains = [
     buyNow: 899,
     minOffer: 450,
     saleUrl: "https://www.spaceship.com/sellerhub/portfolio/thedomainvault/",
-    saleLabel: "View portfolio listing"
+    detailsUrl: "jefik/",
+    saleLabel: "View domain details"
   },
   {
     name: "LegitSales.com",
@@ -38,7 +41,8 @@ const domains = [
     buyNow: 699,
     minOffer: 299,
     saleUrl: "https://legitsales.com",
-    saleLabel: "View secure sale page"
+    detailsUrl: "legitsales/",
+    saleLabel: "View domain details"
   },
   {
     name: "Qubok.com",
@@ -48,7 +52,8 @@ const domains = [
     buyNow: 199,
     minOffer: 100,
     saleUrl: "https://qubok.com",
-    saleLabel: "View secure sale page"
+    detailsUrl: "qubok/",
+    saleLabel: "View domain details"
   }
 ];
 
@@ -84,8 +89,8 @@ domains.forEach((domain, index) => {
       <div><span>Offers from</span><strong>${formatPrice(domain.minOffer)}</strong></div>
     </div>
     <div class="domain-actions">
-      <a class="domain-link" href="${domain.saleUrl}" target="_blank" rel="noopener noreferrer">
-        <span>${domain.saleLabel}</span><b aria-hidden="true">↗</b>
+      <a class="domain-link" href="${domain.detailsUrl}">
+        <span>${domain.saleLabel}</span><b aria-hidden="true">→</b>
       </a>
       <a class="domain-question" href="mailto:contact@reach.edgeflint.com?subject=${subject}">Ask a question about ${domain.name}</a>
     </div>
