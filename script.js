@@ -54,6 +54,17 @@ const domains = [
     saleUrl: "https://qubok.com",
     detailsUrl: "qubok/",
     saleLabel: "View domain details"
+  },
+  {
+    name: "PipeCoiler.com",
+    description: "A precise, industry-ready .com for pipe coiling machinery, industrial equipment, manufacturing, or specialized B2B suppliers.",
+    tags: ["Pipe coiling", "Machinery", "Manufacturing", "B2B"],
+    status: "Available",
+    buyNow: 1995,
+    minOffer: 995,
+    saleUrl: "https://pipecoiler.com",
+    detailsUrl: "pipecoiler/",
+    saleLabel: "View domain details"
   }
 ];
 
