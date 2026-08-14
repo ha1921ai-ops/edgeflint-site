@@ -17,6 +17,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
+  overflow-x: hidden;
   background: var(--ink);
   color: var(--white);
   font-family: var(--sans);
@@ -216,7 +217,15 @@ h1 em { color: var(--gold-bright); font-weight: 400; }
 .status { display: inline-flex; align-items: center; gap: 8px; color: #d6d7d8; text-transform: uppercase; letter-spacing: .15em; font-size: 10px; }
 .status::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #63ba7b; box-shadow: 0 0 0 4px rgba(99,186,123,.08); }
 .domain-index { color: #62666a; font-family: var(--serif); font-size: 15px; }
-.domain-card h3 { font-family: var(--serif); font-size: clamp(35px, 3.8vw, 54px); font-weight: 400; margin: 54px 0 18px; letter-spacing: -.035em; overflow-wrap: anywhere; }
+.domain-card h3 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 3.2vw, 50px);
+  font-weight: 400;
+  margin: 54px 0 18px;
+  letter-spacing: -.045em;
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
 .domain-card h3 span { color: var(--gold-bright); }
 .domain-card > p { color: #a8aaac; line-height: 1.65; max-width: 500px; margin-bottom: 24px; }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
@@ -315,7 +324,12 @@ footer p:last-child { text-align: right; }
   .trust-strip strong { font-size: 20px; }
   .domains-section, .process-section { padding: 86px 22px; }
   .domain-card { min-height: 520px; padding: 25px; }
-  .domain-card h3 { margin-top: 52px; font-size: 41px; }
+  .domain-card h3 {
+    margin-top: 52px;
+    font-size: clamp(18px, 6.8vw, 41px);
+    letter-spacing: -.055em;
+    white-space: nowrap;
+  }
   .about-copy { padding: 76px 22px; }
   .contact-section { padding: 70px 22px; }
   .contact-link span { font-size: 14px; }

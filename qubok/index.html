@@ -16,7 +16,7 @@
   <meta property="og:image" content="https://edgeflint.com/assets/edgeflint-social.webp">
 
   <link rel="icon" href="../assets/edgeflint-logo.webp">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles.css?v=20260814-mobile1">
 
   <style>
     .domain-page {
@@ -39,12 +39,9 @@
       gap: 80px;
       align-items: center;
     }
+    .detail-hero > * { min-width: 0; }
 
-    .detail-hero h1 {
-      font-size: clamp(58px,8vw,118px);
-      margin: 0 0 26px;
-      overflow-wrap: anywhere;
-    }
+    .detail-hero h1 { font-size: clamp(50px, 7.2vw, 108px); margin: 0 0 26px; white-space: nowrap; overflow-wrap: normal; word-break: normal; letter-spacing: -.055em; }
 
     .detail-hero h1 span {
       color: var(--gold-bright);
@@ -214,9 +211,7 @@
         width: calc(100% - 44px);
       }
 
-      .detail-hero h1 {
-        font-size: clamp(48px,15vw,70px);
-      }
+      .detail-hero h1 { font-size: clamp(34px, 12vw, 58px); white-space: nowrap; overflow-wrap: normal; word-break: normal; }
 
       .detail-lead {
         font-size: 16px;

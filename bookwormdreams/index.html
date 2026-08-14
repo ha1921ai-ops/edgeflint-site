@@ -12,12 +12,13 @@
   <meta property="og:url" content="https://edgeflint.com/bookwormdreams/">
   <meta property="og:image" content="https://edgeflint.com/assets/edgeflint-social.webp">
   <link rel="icon" href="../assets/edgeflint-logo.webp">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../styles.css?v=20260814-mobile1">
   <style>
     .domain-page{min-height:100vh;background:radial-gradient(circle at 78% 28%,rgba(209,165,83,.13),transparent 27%),linear-gradient(120deg,#080a0c 0%,#090b0d 58%,#0d0f11 100%)}
     .domain-page .site-header{position:relative}
     .detail-hero{width:min(1280px,calc(100% - 64px));margin:0 auto;padding:105px 0 84px;display:grid;grid-template-columns:1.15fr .85fr;gap:80px;align-items:center}
-    .detail-hero h1{font-size:clamp(43px,5.5vw,78px);margin:0 0 26px;overflow-wrap:normal;word-break:normal}
+    .detail-hero > * { min-width: 0; }
+    .detail-hero h1 { font-size: clamp(36px, 4vw, 68px); margin: 0 0 26px; white-space: nowrap; overflow-wrap: normal; word-break: normal; letter-spacing: -.055em; }
     .detail-hero h1 span{color:var(--gold-bright);white-space:nowrap}
     .detail-lead{max-width:690px;color:#b1b4b6;font-size:18px;line-height:1.75}
     .detail-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:36px}
@@ -41,7 +42,7 @@
     .back-link{color:#bfc1c3;text-decoration:none;font-size:12px;letter-spacing:.08em}
     .back-link:hover{color:#fff}
     @media(max-width:900px){.detail-hero{grid-template-columns:1fr;width:calc(100% - 44px);padding:75px 0;gap:45px}.fit-grid{grid-template-columns:1fr}.fit-grid article,.fit-grid article+article{padding:28px 0;border-right:0;border-bottom:1px solid #c9c5bc}.fit-grid article:last-child{border-bottom:0}}
-    @media(max-width:620px){.domain-page .site-header{width:calc(100% - 44px)}.detail-hero h1{font-size:clamp(43px,13vw,66px)}.detail-lead{font-size:16px}.detail-actions{flex-direction:column}.price-panel{padding:28px 24px}.price{font-size:50px}}
+    @media(max-width:620px){.domain-page .site-header{width:calc(100% - 44px)}.detail-hero h1 { font-size: clamp(18px, 6.5vw, 34px); white-space: nowrap; overflow-wrap: normal; word-break: normal; }.detail-lead{font-size:16px}.detail-actions{flex-direction:column}.price-panel{padding:28px 24px}.price{font-size:50px}}
   </style>
 </head>
 <body class="domain-page">
