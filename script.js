@@ -65,6 +65,17 @@ const domains = [
     saleUrl: "https://pipecoiler.com",
     detailsUrl: "pipecoiler/",
     saleLabel: "View domain details"
+  },
+  {
+    name: "LobbyChair.com",
+    description: "A clear, memorable .com for hospitality furniture, reception seating, interior design, and commercial furniture brands.",
+    tags: ["Furniture", "Hospitality", "Seating", "Interiors"],
+    status: "Available",
+    buyNow: 1495,
+    minOffer: 199,
+    saleUrl: "https://lobbychair.com",
+    detailsUrl: "lobbychair/",
+    saleLabel: "View domain details"
   }
 ];
 
