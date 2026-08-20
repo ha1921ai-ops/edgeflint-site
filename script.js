@@ -87,6 +87,17 @@ const domains = [
     saleUrl: "https://perfreview.com",
     detailsUrl: "perfreview/",
     saleLabel: "View domain details"
+  },
+  {
+    name: "BedHandle.com",
+    description: "A direct, product-ready .com for bed assist handles, safety rails, mobility products, senior care, and home medical equipment.",
+    tags: ["Mobility", "Senior care", "Medical", "Home safety"],
+    status: "Available",
+    buyNow: 1495,
+    minOffer: 199,
+    saleUrl: "https://bedhandle.com",
+    detailsUrl: "bedhandle/",
+    saleLabel: "View domain details"
   }
 ];
 
