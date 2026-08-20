@@ -76,6 +76,17 @@ const domains = [
     saleUrl: "https://lobbychair.com",
     detailsUrl: "lobbychair/",
     saleLabel: "View domain details"
+  },
+  {
+    name: "PerfReview.com",
+    description: "A concise, professional .com for performance reviews, employee feedback, HR software, AI tools, and modern people-operations platforms.",
+    tags: ["HR", "SaaS", "AI", "Performance"],
+    status: "Available",
+    buyNow: 1995,
+    minOffer: 299,
+    saleUrl: "https://perfreview.com",
+    detailsUrl: "perfreview/",
+    saleLabel: "View domain details"
   }
 ];
 
