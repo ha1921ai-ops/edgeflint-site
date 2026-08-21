@@ -98,6 +98,17 @@ const domains = [
     saleUrl: "https://bedhandle.com",
     detailsUrl: "bedhandle/",
     saleLabel: "View domain details"
+  },
+  {
+    name: "RoofImage.com",
+    description: "A precise, commercially relevant .com for roof imagery, aerial inspections, measurements, roofing software, solar, and property intelligence.",
+    tags: ["Roofing", "Imagery", "Inspections", "PropTech"],
+    status: "Available",
+    buyNow: 1495,
+    minOffer: 199,
+    saleUrl: "https://roofimage.com",
+    detailsUrl: "roofimage/",
+    saleLabel: "View domain details"
   }
 ];
 
