@@ -109,6 +109,17 @@ const domains = [
     saleUrl: "https://roofimage.com",
     detailsUrl: "roofimage/",
     saleLabel: "View domain details"
+  },
+  {
+    name: "MiamiRestore.com",
+    description: "A concise Miami-focused .com for water, fire, mold, storm, and property restoration services, reconstruction, and local lead generation.",
+    tags: ["Miami", "Restoration", "Water damage", "Property services"],
+    status: "Available",
+    buyNow: 1495,
+    minOffer: 199,
+    saleUrl: "https://miamirestore.com",
+    detailsUrl: "miamirestore/",
+    saleLabel: "View domain details"
   }
 ];
 
