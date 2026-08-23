@@ -115,10 +115,21 @@ const domains = [
     description: "A concise Miami-focused .com for water, fire, mold, storm, and property restoration services, reconstruction, and local lead generation.",
     tags: ["Miami", "Restoration", "Water damage", "Property services"],
     status: "Available",
-    buyNow: 1495,
-    minOffer: 199,
+    buyNow: 299,
+    minOffer: null,
     saleUrl: "https://miamirestore.com",
     detailsUrl: "miamirestore/",
+    saleLabel: "View domain details"
+  },
+  {
+    name: "DutchTutors.com",
+    description: "A clear exact-match .com for Dutch language tutoring, online lessons, private instructors, language schools, and education platforms.",
+    tags: ["Dutch", "Tutoring", "Languages", "Education"],
+    status: "Available",
+    buyNow: 375,
+    minOffer: null,
+    saleUrl: "https://dutchtutors.com",
+    detailsUrl: "dutchtutors/",
     saleLabel: "View domain details"
   }
 ];
@@ -142,6 +153,9 @@ domains.forEach((domain, index) => {
   const article = document.createElement("article");
   article.className = "domain-card";
   const subject = encodeURIComponent(`Inquiry about ${domain.name}`);
+  const offerPricing = domain.minOffer
+    ? `<div><span>Offers from</span><strong>${formatPrice(domain.minOffer)}</strong></div>`
+    : "";
   article.innerHTML = `
     <div class="domain-top">
       <span class="status">${domain.status}</span>
@@ -149,10 +163,9 @@ domains.forEach((domain, index) => {
     </div>
     <h3>${splitDomain(domain.name)}</h3>
     <p>${domain.description}</p>
-    <div class="tags">${domain.tags.map(tag => `<span>${tag}</span>`).join("")}</div>
     <div class="domain-pricing" aria-label="Pricing for ${domain.name}">
       <div><span>Buy now</span><strong>${formatPrice(domain.buyNow)}</strong></div>
-      <div><span>Offers from</span><strong>${formatPrice(domain.minOffer)}</strong></div>
+      ${offerPricing}
     </div>
     <div class="domain-actions">
       <a class="domain-link" href="${domain.detailsUrl}">
