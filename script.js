@@ -131,6 +131,17 @@ const domains = [
     saleUrl: "https://dutchtutors.com",
     detailsUrl: "dutchtutors/",
     saleLabel: "View domain details"
+  },
+  {
+    name: "VacationDress.com",
+    description: "A clear exact-match .com for vacation fashion, resort wear, travel dresses, boutiques, apparel brands, and ecommerce stores.",
+    tags: ["Fashion", "Resort wear", "Travel", "Ecommerce"],
+    status: "Available",
+    buyNow: 375,
+    minOffer: null,
+    saleUrl: "https://vacationdress.com",
+    detailsUrl: "vacationdress/",
+    saleLabel: "View domain details"
   }
 ];
 
