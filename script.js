@@ -146,6 +146,7 @@ const domains = [
 ];
 
 const domainGrid = document.querySelector("#domain-grid");
+const domainBase = document.body.dataset.domainBase || "";
 
 function splitDomain(name) {
   const dot = name.lastIndexOf(".");
@@ -179,7 +180,7 @@ domains.forEach((domain, index) => {
       ${offerPricing}
     </div>
     <div class="domain-actions">
-      <a class="domain-link" href="${domain.detailsUrl}">
+      <a class="domain-link" href="${domainBase}${domain.detailsUrl}">
         <span>${domain.saleLabel}</span><b aria-hidden="true">→</b>
       </a>
       <a class="domain-question" href="mailto:contact@reach.edgeflint.com?subject=${subject}">Ask a question about ${domain.name}</a>
