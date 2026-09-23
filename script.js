@@ -1,6 +1,17 @@
 // Edit this list whenever a domain is added, sold, or removed.
 const domains = [
   {
+    name: "1Niche.com",
+    description: "A short, memorable .com for niche marketing, SaaS, market research, affiliate tools, creator platforms, directories, and specialized online businesses.",
+    tags: ["SaaS", "Marketing", "Market research", "Brandable"],
+    status: "Available",
+    buyNow: 2995,
+    minOffer: 999,
+    saleUrl: "https://1niche.com",
+    detailsUrl: "1niche/",
+    saleLabel: "View domain details"
+  },
+  {
     name: "BookwormDreams.com",
     description: "A warm, imaginative .com for children’s reading, publishing, literary content, or book-inspired products.",
     tags: ["Books", "Publishing", "Education", "Family"],
